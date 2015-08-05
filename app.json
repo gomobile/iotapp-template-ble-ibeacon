@@ -4,7 +4,7 @@
    "highlights" : [
       ""
    ],
-   "articleUrl" : "",
+   "articleUrl" : "https://software.intel.com/en-us/creating-a-bluetooth-low-energy-ibeacon-application",
    "description" : "A simple nodeJS project that uses the bleno node module on Intel IoT platforms to advertise it's presence as a beacon via Bluetooth Low Energy (BLE) communication.",
    "projectTypeName" : "com.intel.xdk.projecttype.iotapp",
    "title" : "(BLE) BLE-iBeacon",
