@@ -52,7 +52,7 @@ You can installed the required node modules for this project which are found in 
 After installing the neccessary node modules, press the upload and run buttons to execute your project on your board. 
 
 
-####Getting Started with Bleno Cordova* Plug-in
+####Getting Started with Bleno NodeJS Plug-in
 #####Design Considerations
 The key information needed for identifying and configuring your development board as a BLE iBeacon:
 ```javascript
