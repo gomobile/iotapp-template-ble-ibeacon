@@ -1,5 +1,5 @@
 {
-  "name": "blankapp",
+  "name": "xdk-iot-ble-ibeacon",
   "description": "",
   "version": "0.0.0",
   "main": "main.js",
