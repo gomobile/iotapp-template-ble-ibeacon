@@ -6,10 +6,10 @@
   "visible" : true,
   "sortWeight" : "0.0",
   "repoName" : "iotapp-template-iot-ble-ibeacon",
-  "tooltip" : "A simple nodeJS project that uses the bleno node module on Intel IoT platforms to advertise it's presence as a beacon via Bluetooth Low Energy (BLE) communication.",
-  "description" : "A simple nodeJS project that uses the bleno node module on Intel IoT platforms to advertise it's presence as a beacon via Bluetooth Low Energy (BLE) communication.",
+  "tooltip" : "Uses the 'bleno' node module to advertise presence as a beacon via Bluetooth Low Energy (BLE) communication.",
+  "description" : "A simple nodeJS project that uses the 'bleno' node module, on select Intel IoT platforms, to advertise the IoT device's presence as a beacon via Bluetooth Low Energy (BLE) communication.",
   "articleUrl" : "https://software.intel.com/en-us/creating-a-bluetooth-low-energy-ibeacon-application",
-  "keywords" : ["Bluetooth"],
+  "keywords" : ["Bluetooth","BLE"],
   "targets": ["edison","galileo"],
   "runtimes": ["node"]
 }
