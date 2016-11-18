@@ -1,6 +1,5 @@
-BLE - iBeacon Node.js IoT App
-=============================
-
+Intel® XDK IoT Node.js\* BLE iBeacon App
+========================================
 See [LICENSE.md](LICENSE.md) for license terms and conditions.
 
 This sample application is distributed as part of the
