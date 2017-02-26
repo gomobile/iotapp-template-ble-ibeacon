@@ -11,6 +11,12 @@ For help getting started developing applications with the
 Intel XDK, please start with
 [the Intel XDK documentation](https://software.intel.com/en-us/xdk/docs).
 
+See also, the
+[mraa library documentation](https://iotdk.intel.com/docs/master/mraa/index.html)
+for details regarding supported boards and the mraa library API and the
+[upm library documentation](https://iotdk.intel.com/docs/master/upm/) for
+information regarding the upm sensor and actuator library APIs.
+
 App Overview
 ------------
 A simple nodeJS project that uses the bleno node module on Intel
