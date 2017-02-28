@@ -1,5 +1,6 @@
 Intel® XDK IoT Node.js\* BLE iBeacon App
 ========================================
+
 See [LICENSE.md](LICENSE.md) for license terms and conditions.
 
 This sample application is distributed as part of the
@@ -19,15 +20,18 @@ information regarding the upm sensor and actuator library APIs.
 
 App Overview
 ------------
+
 A simple nodeJS project that uses the bleno node module on Intel
 IoT platforms to advertise it's presence as a beacon via Bluetooth
 Low Energy (BLE) communication.
 
-###Intel(R) Edison
+### Intel(R) Edison
+
 In order to leverage this project successfully, you will need to
 enable bluetooth and disable the bluetooth daemon on Intel(R) Edison.
 
-###Intel(R) Galileo
+### Intel(R) Galileo
+
 In order to leverage this project successfully, you will need to
 use a compatible BLE product such as the
 [Grove - BLE](http://www.seeedstudio.com/depot/Grove-BLE-p-1929.html)
@@ -56,7 +60,8 @@ opkg install bluez5-dev
 
 **Note:** If bluez fails to install this version, still proceed with remainding steps.
 
-####Prerequisite for Bleno - node package to work successfully
+#### Prerequisite for Bleno - node package to work successfully
+
 **Note:** The following steps will need to be executed every time the board is restarted.
 Within a SSH or Serial Terminal connection, type the following commands,
 ```
@@ -67,7 +72,8 @@ hciconfig hci0 up
 
 You should now be able to use BLE in your project.
 
-####(Intel XDK IoT Edition) Install node modules
+#### (Intel XDK IoT Edition) Install node modules
+
 Within the "manage your xdk daemon and IoT device" menu, check the following boxes
 * Clean '/node_modules' before building
 * Run npm install directly on IoT Device (requires internet connection on device)
@@ -75,13 +81,16 @@ Within the "manage your xdk daemon and IoT device" menu, check the following box
 You can installed the required node modules for this project which are
 found in the package.json file by pressing the Build/Install button.
 
-####(Intel XDK IoT Edition) Upload & Run project
+#### (Intel XDK IoT Edition) Upload & Run project
+
 After installing the neccessary node modules, press the upload and run
 buttons to execute your project on your board.
 
 
-####Getting Started with Bleno NodeJS Plug-in
-#####Design Considerations
+#### Getting Started with Bleno NodeJS Plug-in
+
+##### Design Considerations
+
 The key information needed for identifying and configuring your development
 board as a BLE iBeacon:
 
@@ -130,7 +139,8 @@ bleno.on('advertisingStop', function() {
 });
 ```
 
-####Testing/Validation
+#### Testing/Validation
+
 In order to test this application, I recommend downloading the following
 mobile application that will allow you to view your nearby development board
 (ibeacon) as well as other BLE ibeacon devices:
@@ -141,17 +151,20 @@ b. [Android App](https://play.google.com/store/apps/details?id=com.radiusnetwork
 
 Important App Files
 -------------------
+
 * main.js
 * package.json
 
 Important Project Files
 -----------------------
+
 * README.md
 * LICENSE.md
 * \<project-name\>.xdk
 
 Tested IoT Node.js Platforms
 ----------------------------
+
 * [Intel® Galileo Board](http://intel.com/galileo)
 * [Intel® Edison Development Platform](http://intel.com/edison)
 
