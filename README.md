@@ -21,20 +21,18 @@ information regarding the upm sensor and actuator library APIs.
 App Overview
 ------------
 
-A simple nodeJS project that uses the bleno node module on Intel
-IoT platforms to advertise it's presence as a beacon via Bluetooth
-Low Energy (BLE) communication.
+A simple nodeJS project that uses the bleno node module so your IoT device
+can advertise its presence as a beacon over Bluetooth Low Energy (BLE).
 
 ### Intel(R) Edison
 
-In order to leverage this project successfully, you will need to
-enable bluetooth and disable the bluetooth daemon on Intel(R) Edison.
+You must _enable_ bluetooth and _disable_ the bluetooth daemon on your device.
 
 ### Intel(R) Galileo
 
-In order to leverage this project successfully, you will need to
-use a compatible BLE product such as the
-[Grove - BLE](http://www.seeedstudio.com/depot/Grove-BLE-p-1929.html)
+This IoT device requires use of a compatible BLE product, such as the
+[Grove - BLE](http://www.seeedstudio.com/depot/Grove-BLE-p-1929.html) and also
+requires that you _disable_ the bluetooth daemon.
 
 
 ###Intel(R) Edison & Intel(R) Galileo
